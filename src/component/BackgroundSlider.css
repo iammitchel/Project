@@ -110,7 +110,7 @@ button{
         display: block;
       }
       .programs{
-        padding: 0px;
+        padding: 10px;
       }
       .programs h1{
         font-size: 20px;
@@ -122,6 +122,9 @@ button{
         .left p {
           padding: 0;
           font-size: 15px;
+        }
+        .left{
+          padding: 5px;
         }
      }
 

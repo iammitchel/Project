@@ -6,3 +6,9 @@ h1{
   font-family:'Times New Roman', Times, serif;
 }
 
+
+ @media screen and (max-width: 800px) {
+   .text {
+     margin-bottom: 120px;
+   }
+ }
