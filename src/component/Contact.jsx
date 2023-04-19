@@ -1,7 +1,7 @@
 import React from 'react'
 import contactUs from "./images/Contact-Us.jpg";
 import './Contact.css'
-import Footer from "../Footer";
+import Footer from "./Footer";
 import Header from './Header';
 
 const Contact = () => {

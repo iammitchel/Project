@@ -1,8 +1,10 @@
 import React from 'react'
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
 const Header = () => {
+
 
   const style = {
     color:'white',
@@ -25,6 +27,7 @@ const Header = () => {
         <Link style={style} to="/contact">
           <h2>Contact Us</h2>
         </Link>
+        <Navbar />
       </Right>
     </Container>
   );
@@ -69,6 +72,26 @@ export const Container = styled.div`
       padding: 15px;
       width: 115px;
       height: 30px;
+    }
+
+    @media screen and (max-width: 1500px) {
+      margin-left: 60%;
+    }
+    @media screen and (max-width: 1200px) {
+      margin-left: 60%;
+    }
+
+    @media screen and (max-width: 1100px) {
+      margin-left: 50%;
+    }
+    @media screen and (max-width: 1000px) {
+      margin-left: 45%;
+    }
+    @media screen and (max-width: 800px) {
+      h2 {
+        margin-left: 30%;
+        display: none;
+      }
     }
   `;
 

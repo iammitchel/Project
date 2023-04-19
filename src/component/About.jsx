@@ -3,7 +3,7 @@ import './About.css'
 import Header from './Header';
 import Consulting from './images/Consulting.jpg'
 import { Tilt } from "react-tilt";
-import Footer from '../Footer';
+import Footer from "./Footer";
 
 
 const About = () => {

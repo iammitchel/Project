@@ -5,7 +5,7 @@
 
 .description{
   position: absolute;
-  z-index: 999;
+  z-index: 1;
   color: aliceblue;
   top: 20%;
   left: 35%;
@@ -25,15 +25,13 @@
 }
 
 .content{
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  margin-top: 70px;
+  padding: 70px;
 }
 
 .right {
   background-color: #353535;
-  padding: 50px;
+  padding: 30px;
+  margin-bottom: 30px;
   border-radius: 10px;
 
 }
@@ -52,6 +50,20 @@
   font-size: 22px;
   font-weight: bold;
   font-family: cursive;
+}
+
+.THH{
+  padding: 0;
+}
+
+.THH .long-text{
+  max-height: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.THH .expanded{
+  max-height: 100rem;
 }
 
 
@@ -84,3 +96,34 @@ button{
   color: #212121;
   cursor: pointer;
 }
+
+    @media screen and (max-width: 1500px) {
+      .description{
+        left: 20%;
+        margin-top: 200px;
+      }
+    }
+ 
+
+    @media screen and (max-width: 800px) {
+      .content {
+        display: block;
+      }
+      .programs{
+        padding: 0px;
+      }
+      .right p{
+        padding: 0;
+        font-size: 15px;
+      }
+        .left p {
+          padding: 0;
+          font-size: 15px;
+        }
+     }
+
+        @media screen and (max-width: 700px) {
+            .description {
+                left: 10%;
+          }
+        }

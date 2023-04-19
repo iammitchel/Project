@@ -1,0 +1,32 @@
+.footer{
+  background-color: #212121;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    display: block;
+  }
+
+  .contact{
+    margin-bottom: 40px;
+  }
+
+  .contact-info{
+   margin-left: 150px;
+   height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-info {
+      margin-left: 100px;
+    }
+}
+@media screen and (max-width: 500px) {
+  .contact-info {
+    margin-left: 50px;
+  }
+}
