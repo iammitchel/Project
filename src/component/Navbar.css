@@ -32,7 +32,7 @@
 }
 
 .nav-text {
-  background-color: #212121;
+  background-color: #060b26;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -80,7 +80,7 @@ span {
   @media screen and (max-width: 1200px) {
     .navbar {
       visibility: visible;
-      margin-left: 350px;
+      margin-left: 390px;
     }
     .nav-menu{
       visibility: visible;
@@ -88,7 +88,7 @@ span {
 
   }
 
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 800px) {
       .navbar {
         margin-left: 320px;
       }
@@ -99,7 +99,7 @@ span {
           }
         }
 
-        @media screen and (max-width: 570px) {
+        @media screen and (max-width: 600px) {
           .navbar {
             margin-left: 200px;
           }
