@@ -78,7 +78,9 @@ export const Container = styled.div`
       margin-left: 60%;
     }
     @media screen and (max-width: 1200px) {
-      margin-left: 60%;
+      h2{
+        display:none;
+      }
     }
 
     @media screen and (max-width: 1100px) {

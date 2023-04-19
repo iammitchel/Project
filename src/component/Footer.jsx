@@ -43,8 +43,8 @@ const Footer = () => {
       >
         <h1 style={{ color: "#fec006" }}>Contact Us</h1>
         <div style={{ padding: "5px" }}>
-          <p>Phone Number</p>
-          <p>Email Address</p>
+          <p>Phone</p>
+          <p>Email </p>
         </div>
       </div>
     </div>
