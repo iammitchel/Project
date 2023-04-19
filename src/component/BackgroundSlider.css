@@ -112,6 +112,9 @@ button{
       .programs{
         padding: 0px;
       }
+      .programs h1{
+        font-size: 20px;
+      }
       .right p{
         padding: 0;
         font-size: 15px;
