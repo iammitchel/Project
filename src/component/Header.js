@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
+import THH from './images/THH.jpeg'
 
 const Header = () => {
 
@@ -14,7 +15,7 @@ const Header = () => {
     <Container>
       <Left>
         <Link style={style} to="/">
-          <h1>LOGO</h1>
+          <img src={THH} alt="" />
         </Link>
       </Left>
       <Right>
@@ -45,16 +46,22 @@ export const Container = styled.div`
     cursor: pointer;
     color: aliceblue;
     position: absolute;
-    z-index: 999;
-    top: 2%;
-    margin-left: 2%;
+    z-index: 1;
+    top: 5%;
+    right: 90%;
+
+    img{
+      width: 50%;
+      height: auto;
+      
+    }
   `;
 
   export const Right = styled.div`
     display: flex;
     margin: 3px;
     position: absolute;
-    z-index: 999;
+    z-index: 1;
     top: 2%;
     margin-left: 70%;
     h2 {
