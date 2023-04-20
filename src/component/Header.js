@@ -55,8 +55,9 @@ export const Container = styled.div`
       height: auto;
     }
     @media screen and (max-width: 800px) {
+      right:80%;
       img{
-        width: 70%;
+        width: 60%;
         height:auto;
       }
     }
