@@ -24,7 +24,7 @@ const About = () => {
       <div className="about">
         <div className="header">
           <Header />
-          <h1 style={{ marginTop: "300px" }}>About Us</h1>
+          <h1 style={{ marginTop: "200px" }}>About Us</h1>
         </div>
       </div>
 

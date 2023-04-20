@@ -13,18 +13,18 @@ const Header = () => {
   return (
     <Container>
       <Left>
-        <Link style={style} to="/">
+        <Link to="/">
           <h1>LOGO</h1>
         </Link>
       </Left>
       <Right>
-        <Link style={style} to="/">
+        <Link to="/">
           <h2>Home</h2>
         </Link>
-        <Link style={style} to="/about">
+        <Link to="/about">
           <h2>About Us</h2>
         </Link>
-        <Link style={style} to="/contact">
+        <Link to="/contact">
           <h2>Contact Us</h2>
         </Link>
         <Navbar />
