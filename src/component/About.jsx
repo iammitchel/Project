@@ -22,11 +22,11 @@ const About = () => {
   return (
     <>
       <div className="about">
-        <div>
+        <div className="header">
           <Header />
-        </div>
-        <div>
-          <h1 style={{ marginTop: "150px" }}>About Us</h1>
+          <div>
+            <h1 style={{ marginTop: "150px" }}>About Us</h1>
+          </div>
         </div>
       </div>
 
