@@ -21,8 +21,8 @@ const About = () => {
   };
   return (
     <>
-      <div className="about">
-        <div className="header" >
+      <div className="about" style={{ marginTop: "30px" }}>
+        <div className="header">
           <Header />
         </div>
         <div>
