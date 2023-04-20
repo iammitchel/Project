@@ -22,10 +22,12 @@ const About = () => {
   return (
     <>
       <div className="about">
-        <div className="header" style={{ backgroundColor: "#353535" }}>
+        <div className="header" >
           <Header />
         </div>
-        <h1 style={{ top: "110px" }}>About Us</h1>
+        <div>
+          <h1>About Us</h1>
+        </div>
       </div>
 
       <div>
