@@ -5,21 +5,26 @@ import Navbar from './Navbar';
 
 const Header = () => {
 
+
+  const style = {
+    color:'white',
+    textDecoration:'none'
+  }
   return (
     <Container>
       <Left>
-        <Link to="/">
+        <Link style={style} to="/">
           <h1>LOGO</h1>
         </Link>
       </Left>
       <Right>
-        <Link to="/">
+        <Link style={style} to="/">
           <h2>Home</h2>
         </Link>
-        <Link to="/about">
+        <Link style={style} to="/about">
           <h2>About Us</h2>
         </Link>
-        <Link to="/contact">
+        <Link style={style} to="/contact">
           <h2>Contact Us</h2>
         </Link>
         <Navbar />
