@@ -9,7 +9,6 @@ const Home = () => {
   const [currentState, setCurrentState] = useState(0);
   const [collapse, setCollapse] = useState(false);
   const [collapse2, setCollapse2] = useState(false);
-  const [collapse3, setCollapse3] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
