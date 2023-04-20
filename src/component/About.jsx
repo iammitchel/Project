@@ -21,7 +21,7 @@ const About = () => {
   };
   return (
     <>
-      <div className="about" >
+      <div className="about">
         <div className="header">
           <Header />
         </div>
