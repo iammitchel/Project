@@ -1,8 +1,8 @@
 import React from 'react'
 import './About.css'
 import Header from './Header';
-import Consulting from './images/Consulting.jpg'
-import { Tilt } from "react-tilt";
+// import Consulting from './images/Consulting.jpg'
+// import { Tilt } from "react-tilt";
 import Footer from "./Footer";
 
 
