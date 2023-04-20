@@ -5,11 +5,6 @@ import Navbar from './Navbar';
 
 const Header = () => {
 
-
-  const style = {
-    color:'white',
-    textDecoration:'none'
-  }
   return (
     <Container>
       <Left>
