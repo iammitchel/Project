@@ -33,9 +33,9 @@ const About = () => {
       <div style={{ marginBottom: "100px", textAlign: "start" }}>
         <h1 style={{ marginLeft: "20%" }}>Who we are</h1>
         <p>
-          Welcome to tenhelpinghands, a non-governmental organiztion based in
-          Nigeria devoted to enhancing the lives of disadvantaged women,
-          children, and families via educational and medical programs. We
+          Welcome to <b>tenhelpinghands</b>, a non-governmental organiztion
+          based in Nigeria devoted to enhancing the lives of disadvantaged
+          women, children, and families via educational and medical programs. We
           consider access to decent education and medical care for all children,
           regardless of their socioeconomic situation, a fundamental human
           right. <br />
@@ -70,7 +70,7 @@ const About = () => {
           beneficiaries, we think it's important to create strong partnerships
           and collaborations. <br />
           <br />
-          Transparency and accountability are values that tenhelpinghands
+          Transparency and accountability are values that <b>tenhelpinghands</b>
           uphold. Our programs are continuously reviewed and evaluated to make
           sure they are having a good effect on the children and women we
           assist. We work hard to make a significant difference in their lives.
