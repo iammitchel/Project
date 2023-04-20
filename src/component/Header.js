@@ -50,10 +50,15 @@ export const Container = styled.div`
     top: 5%;
     right: 90%;
 
-    img{
+    img {
       width: 50%;
       height: auto;
-      
+    }
+    @media screen and (max-width: 800px) {
+      img{
+        width: 70%;
+        height:auto;
+      }
     }
   `;
 
