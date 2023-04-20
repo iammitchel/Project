@@ -1,6 +1,12 @@
 .about{
+  width: 100%;
+  height: 350px;
   background-color: #353535;
- 
+  color: #fff;
+}
+
+.header{
+  background-color: #353535;
 }
 
 .imgWrapper img{
