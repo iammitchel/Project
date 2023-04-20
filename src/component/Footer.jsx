@@ -9,10 +9,10 @@ const Footer = () => {
         className="contact"
         style={{
           color: "white",
-          marginTop: "25px",
+          marginTop: "0px",
         }}
       >
-        <h1>Ten Helping Hands</h1>
+        <h1 style={{fontSize:'25px'}}>Ten Helping Hands</h1>
         <p style={{ color: "#fec006", width: "100%", marginBottom: "20px" }}>
           Dedicated to a better future
         </p>
@@ -41,7 +41,7 @@ const Footer = () => {
           borderRadius: "10px",
         }}
       >
-        <h1 style={{ color: "#fec006" }}>Contact Us</h1>
+        <h1 style={{ color: "#fec006", fontSize:'20px' }}>Contact Us</h1>
         <div style={{ padding: "5px" }}>
           <p>09066523232</p>
           {/* <p>Email </p> */}

@@ -4,6 +4,8 @@ import Header from './Header';
 // import Consulting from './images/Consulting.jpg'
 // import { Tilt } from "react-tilt";
 import Footer from "./Footer";
+import hands from './images/hands.jpg'
+import { Link } from 'react-router-dom';
 
 
 const About = () => {
@@ -70,8 +72,8 @@ const About = () => {
           beneficiaries, we think it's important to create strong partnerships
           and collaborations. <br />
           <br />
-          Transparency and accountability are values that <b>tenhelpinghands</b>
-           uphold. Our programs are continuously reviewed and evaluated to make
+          Transparency and accountability are values that <b>tenhelpinghands </b> uphold.
+          Our programs are continuously reviewed and evaluated to make
           sure they are having a good effect on the children and women we
           assist. We work hard to make a significant difference in their lives.
           We value the support of our kind donors who support us in realizing
@@ -80,7 +82,7 @@ const About = () => {
           <br />
           Join us in our effort to provide all children and women in need with
           access to healthcare and education. We can build a better future for
-          future generations by working together. Thank you for your support.{" "}
+          future generations by working together. Thank you for your support.
           <br />
           {/* Ten Helping Hands is a non-governmental organization (NGO) based in
           Nigeria that focuses on child education, women and children
@@ -141,6 +143,13 @@ const About = () => {
           </div>
         </div>
       </div> */}
+      <div className='Pbtn'>
+        <img src={hands} alt="" />
+        <h1>Check out our programs</h1>
+        <Link to='/'>
+        <button>View programs</button>
+        </Link>
+      </div>
       <Footer />
     </>
   );

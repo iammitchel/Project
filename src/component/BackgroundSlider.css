@@ -47,9 +47,8 @@
  }
 
 .right p{
-  font-size: 19px;
-  font-weight: bold;
-  font-family: cursive;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .THH{
@@ -74,9 +73,8 @@
 }
 
 .left p{
-  font-size: 22px;
-  font-weight: bold;
-  font-family: cursive;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .left .long-text {

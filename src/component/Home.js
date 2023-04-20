@@ -58,7 +58,7 @@ const Home = () => {
                 backgroundColor: "#fec006",
                 color: "black",
                 border: "none",
-                padding:'20px'
+                padding:'15px'
               }}
             >
               Read more

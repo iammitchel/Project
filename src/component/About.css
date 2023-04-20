@@ -13,6 +13,32 @@
       border-radius: 0.5rem;
 }
 
+.Pbtn h1{
+    position: relative;
+    z-index: 1;
+    bottom: 250px;
+    color: #fff;
+}
+
+.Pbtn img{
+  filter: brightness(50%);
+  background-position: center;
+  background-size: cover;
+  width: 30%;
+  height: auto;
+}
+
+.Pbtn button{
+    position: relative;
+    z-index: 1;
+    bottom: 250px;
+    border: none;
+}
+
+.Pbtn button:hover{
+  color: #fff;
+}
+
 h1{
   font-family: 'Times New Roman', Times, serif;
   font-size: 50px;
@@ -30,3 +56,5 @@ p{
       width: 100%;
     }
   }
+
+
