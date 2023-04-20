@@ -71,7 +71,7 @@ const About = () => {
           and collaborations. <br />
           <br />
           Transparency and accountability are values that <b>tenhelpinghands</b>
-          uphold. Our programs are continuously reviewed and evaluated to make
+           uphold. Our programs are continuously reviewed and evaluated to make
           sure they are having a good effect on the children and women we
           assist. We work hard to make a significant difference in their lives.
           We value the support of our kind donors who support us in realizing
