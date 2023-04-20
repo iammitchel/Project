@@ -22,10 +22,10 @@ const About = () => {
   return (
     <>
       <div className="about">
-        <div className="header" style={{backgroundColor:'#353535'}}>
+        <div className="header" style={{ backgroundColor: "#353535" }}>
           <Header />
-          <h1 style={{ marginTop: "10px" }}>About Us</h1>
         </div>
+        <h1 style={{ top: "110px" }}>About Us</h1>
       </div>
 
       <div>
@@ -63,10 +63,14 @@ const About = () => {
           </div>
           <div>
             <h1>Grace Mbah</h1>
-            <p style={{
-              fontSize:'25px',
-              fontWeight:'bold'
-            }}>Founder</p>
+            <p
+              style={{
+                fontSize: "25px",
+                fontWeight: "bold",
+              }}
+            >
+              Founder
+            </p>
           </div>
         </div>
       </div>
