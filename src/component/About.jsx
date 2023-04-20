@@ -25,9 +25,6 @@ const About = () => {
         <div className="header">
           <Header />
         </div>
-        <div>
-          <h1>About Us</h1>
-        </div>
       </div>
 
       <div>
