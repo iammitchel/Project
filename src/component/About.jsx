@@ -24,7 +24,7 @@ const About = () => {
   return (
     <>
       <div className="about">
-        <h1 style={{ color: "#353535" }}>About us</h1>
+        <h1 style={{ color: "#353535",fontSize:'20px' }}>About us</h1>
         <div className="header">
           <Header />
           <div>
