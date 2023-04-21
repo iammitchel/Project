@@ -30,8 +30,8 @@
   filter: brightness(50%);
   background-position: center;
   background-size: cover;
-  width: 30%;
-  height: auto; 
+  width: 40%;
+  height: 10hv; 
   margin-top: 50px;
 }
 
@@ -58,17 +58,20 @@ p{
   margin: 0 auto;
 }
 
- @media screen and (max-width: 570px) {
+ @media screen and (max-width: 1400px) {
 
+  p {
+      width: 100%;
+    }
 
    .Pbtn h1 {
-     font-size: 5px;
-     bottom: 0px;
+     font-size: 45px;
+     bottom: 300px;
    }
 
    .Pbtn button {
-     font-size: 5px;
-     bottom: 0px;
+     font-size: 30px;
+     bottom: 270px;
    }
 
    .Pbtn img{
@@ -77,7 +80,99 @@ p{
 
  }
 
-  @media screen and (max-width: 700px) {
+ @media screen and (max-width: 1000px) {
+
+  p {
+      width: 100%;
+    }
+
+   .Pbtn h1 {
+     font-size: 30px;
+     bottom: 250px;
+   }
+
+   .Pbtn button {
+     font-size: 20px;
+     bottom: 230px;
+   }
+
+   .Pbtn img {
+     width: 50%;
+   }
+
+ }
+
+ @media screen and (max-width: 800px) {
+  p {
+      width: 100%;
+    }
+
+   .Pbtn h1 {
+     font-size: 25px;
+     bottom: 200px;
+   }
+
+   .Pbtn button {
+     font-size: 15px;
+     bottom: 150px;
+   }
+
+   .Pbtn img {
+     width: 50%;
+   }
+
+   .WWA h1{
+    font-size: 30px;
+   }
+
+     .WWA p{
+       font-size: 20px;
+     }
+
+ }
+
+ @media screen and (max-width: 600px) {
+  p {
+      width: 100%;
+    }
+   .Pbtn h1 {
+     font-size: 20px;
+     bottom: 150px;
+   }
+
+   .Pbtn button {
+     font-size: 15px;
+     bottom: 120px;
+   }
+
+   .Pbtn img {
+     width: 50%;
+   }
+
+ }
+
+    @media screen and (max-width: 500px) {
+      p {
+        width: 100%;
+      }
+  
+      .Pbtn h1 {
+        font-size: 15px;
+        bottom: 100px;
+      }
+  
+      .Pbtn button {
+        font-size: 10px;
+        bottom: 80px;
+      }
+  
+      .Pbtn img {
+        width: 50%;
+      }
+  
+    }
+
+  /* @media screen and (max-width: 700px) {
     p{
       width: 100%;
     }
@@ -110,9 +205,9 @@ p{
   
        .Pbtn img {
          width: 50%;
-       }
+       } */
 
-       
+/*        
      }
          @media screen and (max-width: 1400px) {
     
@@ -142,7 +237,7 @@ p{
               }
       
             
-            }
+            } */
             /* @media screen and (max-width: 1700px) {
 
               .Pbtn h1 {
