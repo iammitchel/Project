@@ -127,10 +127,17 @@ button{
         .left{
           padding: 5px;
         }
+        .content {
+          padding: 5px;
+        }
      }
 
         @media screen and (max-width: 700px) {
             .description {
                 left: 5%;
+          }
+
+          .content {
+            padding: 5px;
           }
         }
