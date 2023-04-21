@@ -122,7 +122,7 @@ const About = () => {
           outcomes and a brighter future.
         </p>
         <h1 style={{ color: "#fec006" }}>Vision</h1>
-        <p style={{ color: "#fff" }}>
+        <p style={{ color: "#fff", marginBottom:'30px' }}>
           A worldwhere every child has access to quality education, and every
           woman and child has access to comprehensive healthcare. We strive to
           break the cycle of poverty and increase the overall well-being of
