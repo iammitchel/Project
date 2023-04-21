@@ -109,6 +109,11 @@ button{
       }
       .programs{
         padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .programs p{
+        margin-bottom: 40px;
       }
       .programs h1{
         font-size: 20px;

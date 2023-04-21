@@ -34,7 +34,7 @@ const About = () => {
       </div>
 
       <div className="WWA">
-        <h1 style={{ marginLeft: "20%" }}>Who we are</h1>
+        <h1>Who we are</h1>
         <p>
           Welcome to <b>tenhelpinghands</b>, a non-governmental organiztion
           based in Nigeria devoted to enhancing the lives of disadvantaged

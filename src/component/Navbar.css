@@ -80,7 +80,7 @@ span {
   @media screen and (max-width: 1200px) {
     .navbar {
       visibility: visible;
-      margin-left: 390px;
+      margin-left: 370px;
     }
     .nav-menu{
       visibility: visible;
