@@ -5,7 +5,7 @@
 
 .description{
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   color: aliceblue;
   top: 20%;
   left: 35%;
