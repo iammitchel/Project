@@ -9,7 +9,6 @@ const Footer = () => {
         className="contact"
         style={{
           color: "white",
-          marginTop: "0px",
         }}
       >
         <h1 style={{fontSize:'25px'}}>Ten Helping Hands</h1>

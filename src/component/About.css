@@ -25,7 +25,8 @@
   background-position: center;
   background-size: cover;
   width: 30%;
-  height: auto;
+  height: auto; 
+  margin-top: 50px;
 }
 
 .Pbtn button{
