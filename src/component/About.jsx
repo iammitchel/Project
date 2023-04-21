@@ -4,11 +4,21 @@ import Header from './Header';
 // import Consulting from './images/Consulting.jpg'
 // import { Tilt } from "react-tilt";
 import Footer from "./Footer";
+import aboutImage from "./info";
 import hands from './images/hands.jpg'
+// import about from './images/about.jpg'
 import { Link } from 'react-router-dom';
 
 
 const About = () => {
+
+  const bgImageStyle = {
+    backgroundImage: `url(${aboutImage[0].url})`,
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    height: "100%",
+    filter: "brightness(40%)",
+  };
 
   // const defaultOptions = {
   //   reverse: false, // reverse the tilt direction
@@ -24,12 +34,14 @@ const About = () => {
   return (
     <>
       <div className="about">
-        <h1 style={{ color: "#353535",fontSize:'20px' }}>About us</h1>
+        {/* <img src={about} alt="" /> */}
+        <div style={bgImageStyle}> </div>
+        {/* <h1 style={{ color: "#353535",fontSize:'20px' }}>About us</h1> */}
         <div className="header">
           <Header />
-          <div>
+          {/* <div>
             <h1 style={{ marginTop: "200px" }}>About Us</h1>
-          </div>
+          </div> */}
         </div>
       </div>
 
