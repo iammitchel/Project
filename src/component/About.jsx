@@ -24,6 +24,7 @@ const About = () => {
   return (
     <>
       <div className="about">
+        <h1 style={{ color: "#353535" }}>About us</h1>
         <div className="header">
           <Header />
           <div>
@@ -32,7 +33,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className='WWA'>
+      <div className="WWA">
         <h1 style={{ marginLeft: "20%" }}>Who we are</h1>
         <p>
           Welcome to <b>tenhelpinghands</b>, a non-governmental organiztion
@@ -72,13 +73,13 @@ const About = () => {
           beneficiaries, we think it's important to create strong partnerships
           and collaborations. <br />
           <br />
-          Transparency and accountability are values that <b>tenhelpinghands </b> uphold.
-          Our programs are continuously reviewed and evaluated to make
-          sure they are having a good effect on the children and women we
-          assist. We work hard to make a significant difference in their lives.
-          We value the support of our kind donors who support us in realizing
-          our objectives and share our belief in the significance of donor
-          interaction. <br />
+          Transparency and accountability are values that{" "}
+          <b>tenhelpinghands </b> uphold. Our programs are continuously reviewed
+          and evaluated to make sure they are having a good effect on the
+          children and women we assist. We work hard to make a significant
+          difference in their lives. We value the support of our kind donors who
+          support us in realizing our objectives and share our belief in the
+          significance of donor interaction. <br />
           <br />
           Join us in our effort to provide all children and women in need with
           access to healthcare and education. We can build a better future for
@@ -143,11 +144,11 @@ const About = () => {
           </div>
         </div>
       </div> */}
-      <div className='Pbtn'>
+      <div className="Pbtn">
         <img src={hands} alt="" />
         <h1>Check out our programs</h1>
-        <Link to='/'>
-        <button>View programs</button>
+        <Link to="/">
+          <button>View programs</button>
         </Link>
       </div>
       <Footer />
