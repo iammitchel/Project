@@ -13,6 +13,12 @@
       border-radius: 0.5rem;
 }
 
+
+.WWA{
+  margin-bottom: 100px;
+  text-align: start;
+}
+
 .Pbtn h1{
     position: relative;
     z-index: 1;
@@ -52,10 +58,104 @@ p{
   margin: 0 auto;
 }
 
+ @media screen and (max-width: 570px) {
+
+
+   .Pbtn h1 {
+     font-size: 5px;
+     bottom: 0px;
+   }
+
+   .Pbtn button {
+     font-size: 5px;
+     bottom: 0px;
+   }
+
+   .Pbtn img{
+    width: 50%;
+   }
+
+ }
+
   @media screen and (max-width: 700px) {
     p{
       width: 100%;
     }
+
+    .Pbtn h1{
+      font-size: 20px;
+      bottom: 150px;
+    }
+        .Pbtn button {
+          font-size: 15px;
+          bottom: 140px;
+        }
+        .Pbtn img {
+          width: 50%;
+        }
+        
   }
+
+     @media screen and (max-width: 800px) {
+       
+       .Pbtn h1 {
+         font-size: 20px;
+         bottom: 150px;
+       }
+  
+       .Pbtn button {
+         font-size: 15px;
+         bottom: 140px;
+       }
+  
+       .Pbtn img {
+         width: 50%;
+       }
+
+       
+     }
+         @media screen and (max-width: 1400px) {
+    
+           .Pbtn h1 {
+             font-size: 10px;
+             bottom: 170px;
+           }
+    
+           .Pbtn button {
+             font-size: 15px;
+             bottom: 160px;
+           }
+    
+    
+         }
+
+            @media screen and (max-width: 1600px) {
+      
+              .Pbtn h1 {
+                font-size: 20px;
+                bottom: 150px;
+              }
+      
+              .Pbtn button {
+                font-size: 15px;
+                bottom: 120px;
+              }
+      
+            
+            }
+            /* @media screen and (max-width: 1700px) {
+
+              .Pbtn h1 {
+                font-size: 15px;
+                bottom: 120px;
+              }
+
+              .Pbtn button {
+                font-size: 15px;
+                bottom: 100px;
+              }
+
+
+            } */
 
 

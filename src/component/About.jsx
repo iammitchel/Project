@@ -32,7 +32,7 @@ const About = () => {
         </div>
       </div>
 
-      <div style={{ marginBottom: "100px", textAlign: "start" }}>
+      <div className='WWA'>
         <h1 style={{ marginLeft: "20%" }}>Who we are</h1>
         <p>
           Welcome to <b>tenhelpinghands</b>, a non-governmental organiztion

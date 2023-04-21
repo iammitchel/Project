@@ -11,7 +11,7 @@ const Footer = () => {
           color: "white",
         }}
       >
-        <h1 style={{fontSize:'25px'}}>Ten Helping Hands</h1>
+        <h1 style={{ fontSize: "25px" }}>Ten Helping Hands</h1>
         <p style={{ color: "#fec006", width: "100%", marginBottom: "20px" }}>
           Dedicated to a better future
         </p>
@@ -40,9 +40,9 @@ const Footer = () => {
           borderRadius: "10px",
         }}
       >
-        <h1 style={{ color: "#fec006", fontSize:'20px' }}>Contact Us</h1>
+        <h1 style={{ color: "#fec006", fontSize: "20px" }}>Contact Us</h1>
         <div style={{ padding: "5px" }}>
-          <p>09066523232</p>
+          <p>07031292497</p>
           {/* <p>Email </p> */}
         </div>
       </div>
