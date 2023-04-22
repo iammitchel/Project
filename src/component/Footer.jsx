@@ -29,10 +29,10 @@ const Footer = () => {
           <BsLinkedin />
           <BsTwitter />
         </div>
-        <div className="number">
-          <h1>Contact Us</h1>
-          <p>07031292497</p>
-        </div>
+      </div>
+      <div className="number">
+        <h1>Contact Us</h1>
+        <p>07031292497</p>
       </div>
       <div
         className="contact-info"
@@ -47,7 +47,6 @@ const Footer = () => {
         <h1 style={{ color: "#fec006", fontSize: "20px" }}>Contact Us</h1>
         <div style={{ padding: "5px" }}>
           <p>07031292497</p>
-          {/* <p>Email </p> */}
         </div>
       </div>
     </div>
