@@ -29,6 +29,10 @@ const Footer = () => {
           <BsLinkedin />
           <BsTwitter />
         </div>
+        <div className="number">
+          <h1>Contact Us</h1>
+          <p>07031292497</p>
+        </div>
       </div>
       <div
         className="contact-info"
