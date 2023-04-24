@@ -21,7 +21,7 @@ const Header = () => {
         </NavLink>
       </Left>
       <Right>
-        <NavLink style={style} exact to="/" >
+        <NavLink style={style} to="/" >
           <h2>Home</h2>
         </NavLink>
         <NavLink style={style} to="/about" >
@@ -92,13 +92,23 @@ export const Container = styled.div`
       height: 30px;
     }
 
-    a.active h2{
+    a.active h2 {
       background-color: #fec006;
       color: #000000;
     }
 
+    @media screen and (max-width: 1650px) {
+      margin-left: 60%;
+    }
+    @media screen and (max-width: 1600px) {
+      margin-left: 60%;
+    }
+
     @media screen and (max-width: 1500px) {
-      margin-left: 63%;
+      margin-left: 53%;
+    }
+    @media screen and (max-width: 1300px) {
+      margin-left: 50%;
     }
     @media screen and (max-width: 1200px) {
       h2 {

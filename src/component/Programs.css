@@ -16,3 +16,13 @@
 .program h1{
   text-align: center;
 }
+
+ @media screen and (max-width: 800px) {
+   .head h1{
+    left: 20%;
+   }
+
+   .head img{
+    height: 500px;
+   }
+ }
