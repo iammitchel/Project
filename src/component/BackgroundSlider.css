@@ -99,20 +99,18 @@ button{
     @media screen and (max-width: 1500px) {
       .description{
         left: 30%;
-        margin-top: 200px;
+        margin-top: 120px;
       }
     }
  
          @media screen and (max-width: 1000px) {
            .description {
              left: 20%;
-             margin-top: 200px;
            }
           }
     @media screen and (max-width: 800px) {
       .description {
           left: 15%;
-          margin-top: 200px;
         }
       .content {
         display: block;

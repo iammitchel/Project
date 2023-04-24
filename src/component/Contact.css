@@ -12,4 +12,8 @@ h1{
    .text {
      margin-bottom: 120px;
    }
+
+     .wrapper img {
+      height: 200px;
+     }
  }
