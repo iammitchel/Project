@@ -16,7 +16,7 @@ const About = () => {
     backgroundImage: `url(${aboutImage[0].url})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
-    height: "100%",
+    height: "200%",
     filter: "brightness(40%)",
   };
 
@@ -45,9 +45,26 @@ const About = () => {
         </div>
       </div>
 
-      <div className="WWA">
-        <h1>Who we are</h1>
-        <p>
+      <div style={{ marginTop: "400px" }}>
+        <h1 style={{ color: "black" }}>Mission</h1>
+        <p style={{ color: "black" }}>
+          To improve the lives of women and children by providing educational
+          opportunities and healthcare services that promote better health
+          outcomes and a brighter future.
+        </p>
+        <h1 style={{ color: "black" }}>Vision</h1>
+        <p style={{ color: "black", marginBottom: "30px" }}>
+          A worldwhere every child has access to quality education, and every
+          woman and child has access to comprehensive healthcare. We strive to
+          break the cycle of poverty and increase the overall well-being of
+          communities by empowering children through education and promoting the
+          health and well-being of women and children.
+        </p>
+      </div>
+
+      <div className="right" style={{ color: "#fff" }}>
+        <h1 style={{ color: "#fec006" }}>Who we are</h1>
+        <p style={{ textAlign: "start" }}>
           Welcome to <b>tenhelpinghands</b>, a non-governmental organiztion
           based in Nigeria devoted to enhancing the lives of disadvantaged
           women, children, and families via educational and medical programs. We
@@ -114,22 +131,7 @@ const About = () => {
           future for all Nigerians. Certainly! */}
         </p>
       </div>
-      <div className="right">
-        <h1 style={{ color: "#fec006" }}>Mission</h1>
-        <p style={{ color: "#fff" }}>
-          To improve the lives of women and children by providing educational
-          opportunities and healthcare services that promote better health
-          outcomes and a brighter future.
-        </p>
-        <h1 style={{ color: "#fec006" }}>Vision</h1>
-        <p style={{ color: "#fff", marginBottom:'30px' }}>
-          A worldwhere every child has access to quality education, and every
-          woman and child has access to comprehensive healthcare. We strive to
-          break the cycle of poverty and increase the overall well-being of
-          communities by empowering children through education and promoting the
-          health and well-being of women and children.
-        </p>
-      </div>
+
       {/* <div className="imgWrapper">
         <div>
           <div style={{ display: "flex", justifyContent: "center" }}>
@@ -159,7 +161,7 @@ const About = () => {
       <div className="Pbtn">
         <img src={hands} alt="" />
         <h1>Check out our programs</h1>
-        <Link to="/">
+        <Link to="/programs">
           <button>View programs</button>
         </Link>
       </div>

@@ -25,6 +25,9 @@ const Header = () => {
         <Link style={style} to="/about">
           <h2>About Us</h2>
         </Link>
+        <Link style={style} to="/programs">
+          <h2>Programs</h2>
+        </Link>
         <Link style={style} to="/contact">
           <h2>Contact Us</h2>
         </Link>
@@ -69,7 +72,7 @@ export const Container = styled.div`
     position: absolute;
     z-index: 1;
     top: 2%;
-    margin-left: 70%;
+    margin-left: 65%;
     h2 {
       width: 115px;
       height: 20px;

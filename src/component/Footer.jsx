@@ -40,13 +40,13 @@ const Footer = () => {
           backgroundColor: "#353535",
           color: "white",
           padding: "35px",
-          width: "200px",
+          width: "270px",
           borderRadius: "10px",
         }}
       >
         <h1 style={{ color: "#fec006", fontSize: "20px" }}>Contact Us</h1>
         <div style={{ padding: "5px" }}>
-          <p>07031292497</p>
+          <p>+2347031292497</p>
         </div>
       </div>
     </div>

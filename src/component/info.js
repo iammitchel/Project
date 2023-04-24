@@ -1,6 +1,9 @@
 const aboutImage = [
   {
-    url: "THH.jpeg",
+    url: "children.jpg",
+  },
+  {
+    url: "about.jpg",
   },
 ];
 

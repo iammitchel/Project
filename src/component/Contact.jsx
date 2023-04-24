@@ -12,11 +12,12 @@ const Contact = () => {
         <div className="wrapper">
           <img src={contactUs} alt="" />
         </div>
-        <div className='text'>
-        <h1 style={{padding:'20px', fontSize:'35px'}}>
-          We are ready to answer all your questions and help you find the best
-          cause to help
-        </h1>
+        <div className="text">
+          <h1 style={{ padding: "20px", fontSize: "35px" }}>
+            Contact us to enquire as to how you can be a part of our
+            initiatives and help towards improving the lives of African women
+            and children
+          </h1>
         </div>
         <Footer />
       </div>

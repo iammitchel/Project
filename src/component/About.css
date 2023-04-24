@@ -126,15 +126,6 @@ p{
      width: 50%;
    }
 
-   .WWA h1{
-    font-size: 30px;
-   }
-
-     .WWA p{
-       font-size: 17px;
-       padding: 3px;
-     }
-
  }
 
  @media screen and (max-width: 600px) {
