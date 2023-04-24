@@ -72,7 +72,7 @@ const Home = () => {
         </p>
         <div className="content">
           <div className="right">
-            <h1 style={{ color: "#fec006" }}>Education Initiatives: </h1>
+            <h1 style={{ color: "#fec006" }}>Education Initiatives </h1>
 
             <p>
               We try to support the most vulnerable and marginalized children,
