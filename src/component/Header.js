@@ -1,11 +1,13 @@
 import React from 'react'
 import styled from "styled-components";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Navbar from './Navbar';
 import THH from './images/THH.jpeg'
 
 const Header = () => {
 
+  // const activeLink = 'bg-blue-100 text-black'
+  // const normalLink = ''
 
   const style = {
     color:'white',
@@ -14,23 +16,23 @@ const Header = () => {
   return (
     <Container>
       <Left>
-        <Link style={style} to="/">
+        <NavLink style={style} to="/">
           <img src={THH} alt="" />
-        </Link>
+        </NavLink>
       </Left>
       <Right>
-        <Link style={style} to="/">
+        <NavLink style={style} exact to="/" >
           <h2>Home</h2>
-        </Link>
-        <Link style={style} to="/about">
+        </NavLink>
+        <NavLink style={style} to="/about" >
           <h2>About Us</h2>
-        </Link>
-        <Link style={style} to="/programs">
+        </NavLink>
+        <NavLink style={style} to="/programs">
           <h2>Programs</h2>
-        </Link>
-        <Link style={style} to="/contact">
+        </NavLink>
+        <NavLink style={style} to="/contact">
           <h2>Contact Us</h2>
-        </Link>
+        </NavLink>
         <Navbar />
       </Right>
     </Container>
@@ -90,12 +92,17 @@ export const Container = styled.div`
       height: 30px;
     }
 
+    a.active h2{
+      background-color: #fec006;
+      color: #000000;
+    }
+
     @media screen and (max-width: 1500px) {
       margin-left: 63%;
     }
     @media screen and (max-width: 1200px) {
-      h2{
-        display:none;
+      h2 {
+        display: none;
       }
     }
 
