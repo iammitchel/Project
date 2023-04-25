@@ -49,11 +49,13 @@
 
 .right p{
   font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "DM Sans", Sans-serif;
+  text-align: start;
 }
 
-.THH{
-  padding: 0;
+.THH p{
+  text-align: start;
+  margin-bottom: 20px;
 }
 
 .THH .long-text{
@@ -75,7 +77,8 @@
 
 .left p{
   font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "DM Sans", Sans-serif;
+  text-align: start;
 }
 
 .left .long-text {

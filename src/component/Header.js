@@ -75,6 +75,8 @@ export const Container = styled.div`
     z-index: 1;
     top: 2%;
     margin-left: 65%;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 13px;
     h2 {
       width: 115px;
       height: 20px;

@@ -52,13 +52,13 @@
 }
 
 h1{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Fira Sans", Sans-serif;
   font-size: 50px;
 }
 
 p{
   font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "DM Sans", Sans-serif;
   width: 60%;
   margin: 0 auto;
 }

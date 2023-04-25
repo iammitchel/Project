@@ -33,6 +33,7 @@ const Footer = () => {
       <div className="number">
         <h1>Contact Us</h1>
         <p>+2347031292497</p>
+        <p>info@tenhelpinghands.com</p>
       </div>
       <div
         className="contact-info"
@@ -40,13 +41,14 @@ const Footer = () => {
           backgroundColor: "#353535",
           color: "white",
           padding: "35px",
-          width: "270px",
+          width: "400px",
           borderRadius: "10px",
         }}
       >
         <h1 style={{ color: "#fec006", fontSize: "20px" }}>Contact Us</h1>
         <div style={{ padding: "5px" }}>
           <p>+2347031292497</p>
+          <p>info@tenhelpinghands.com</p>
         </div>
       </div>
     </div>

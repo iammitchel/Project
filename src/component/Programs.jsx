@@ -18,7 +18,7 @@ const Programs = () => {
         </div>
         <div className="right">
           <h1 style={{ color: "#fec006", textAlign: "center" }}>
-            Education Initiatives
+            Education
           </h1>
           <p style={{ color: "#fff", textAlign: "start" }}>
             • We believe that every child has the right to quality education and
