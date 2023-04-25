@@ -13,7 +13,7 @@ const Programs = () => {
           <img src={Pimg} alt="" />
             <h1 style={{ fontSize: 60 }}>Coming soon</h1>
         </div>
-        <div className="program">
+        {/* <div className="program">
           <h1>What we do</h1>
         </div>
         <div className="right">
@@ -144,7 +144,7 @@ const Programs = () => {
               <br />
             </p>
           </div>
-        </div>
+        </div> */}
 
         <Footer />
       </div>
