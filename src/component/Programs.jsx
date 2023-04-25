@@ -11,7 +11,7 @@ const Programs = () => {
         <Header />
         <div className="head">
           <img src={Pimg} alt="" />
-            <h1 style={{ fontSize: 60 }}>Coming Soon</h1>
+            <h1 style={{ fontSize: 60 }}>Coming soon</h1>
         </div>
         <div className="program">
           <h1>What we do</h1>
