@@ -43,7 +43,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="history" style={{ padding: 20 }}>
+      <div className="history">
         <h1>About Ten Helping Hands</h1>
         <div className="THH">
           <p>

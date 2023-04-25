@@ -113,7 +113,7 @@ button{
           }
     @media screen and (max-width: 800px) {
       .description {
-          left: 15%;
+          left: 2%;
         }
       .content {
         display: block;
@@ -146,11 +146,17 @@ button{
         .content {
           padding: 5px;
         }
+        .THH p {
+          font-size: 19px;
+        }
+        .history{
+          padding: 0;
+        }
      }
 
         @media screen and (max-width: 700px) {
             .description {
-                left: 5%;
+                left: 2%;
           }
 
           .content {
