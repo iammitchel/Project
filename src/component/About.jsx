@@ -54,7 +54,7 @@ const About = () => {
         </p>
         <h1 style={{ color: "black" }}>Vision</h1>
         <p style={{ color: "black", marginBottom: "30px" }}>
-          A worldwhere every child has access to quality education, and every
+          A world where every child has access to quality education, and every
           woman and child has access to comprehensive healthcare. We strive to
           break the cycle of poverty and increase the overall well-being of
           communities by empowering children through education and promoting the
