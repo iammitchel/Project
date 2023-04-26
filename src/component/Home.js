@@ -10,7 +10,7 @@ const Home = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      if (currentState === 4) {
+      if (currentState === 3) {
         setCurrentState(0);
       } else {
         setCurrentState(currentState + 1);
@@ -38,7 +38,7 @@ const Home = () => {
             Ten Helping Hands
           </h1>
           <p style={{ fontFamily: '"DM Sans", Sans-serif' }}>
-            Contributing towards a better future
+            Contributing towards a better future for Africa
           </p>
         </div>
       </div>
@@ -82,9 +82,11 @@ const Home = () => {
 
             <p>
               • We try to support the most vulnerable and marginalized children,
-              who ordinarily will be unable to afford quality education. • We
-              believe that every child has the right to quality education and a
-              bright future, regardless of their circumstances or location.
+              who ordinarily will be unable to afford quality education. <br />
+              <br />
+              • We believe that every child has the right to quality education
+              and a bright future, regardless of their circumstances or
+              location.
               <br />
               <br />
               • We partner with local communities, schools, government agencies
@@ -105,9 +107,11 @@ const Home = () => {
             <p>
               • THH is dedicated to improving the health and well-being of women
               and children in Nigeria, especially those who are most in need and
-              face the greatest challenges. • We believe that quality health
-              care and a healthy life are the rights of every woman and child,
-              no matter where they live or what their situation is. <br />
+              face the greatest challenges. <br />
+              <br />
+              • We believe that quality healthcare and a healthy life are the
+              rights of every woman and child, no matter where they live or what
+              their situation is. <br />
               <br />
               • We collaborate with local communities, health providers,
               government agencies and other partners to ensure that women and
