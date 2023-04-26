@@ -13,7 +13,7 @@ const Contact = () => {
           <img src={contactUs} alt="" />
         </div>
         <div className="text">
-          <h1 style={{ padding: "20px", fontSize: "35px" }}>
+          <h1 style={{ padding: "20px", fontSize: "30px" }}>
             Contact us to enquire as to how you can be a part of our
             initiatives and help towards improving the lives of African women
             and children
