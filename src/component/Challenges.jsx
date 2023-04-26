@@ -4,7 +4,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Pimg from "./images/challenge.jpg";
 import { Link } from 'react-router-dom';
-import hands from "./images/hands.jpg";
 
 const Challenges = () => {
   return (
