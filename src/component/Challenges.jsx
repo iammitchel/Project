@@ -103,15 +103,12 @@ const Challenges = () => {
               Nigeria have access to quality healthcare services. <br />
               <br />
             </p>
+            <div style={{border:'none'}}>
+              <Link to="/programs">
+                <button>View programs</button>
+              </Link>
+            </div>
           </div>
-        </div>
-
-        <div className="Pbtn">
-          <img src={hands} alt="" />
-          <h1>Check out our programs</h1>
-          <Link to="/programs">
-            <button>View programs</button>
-          </Link>
         </div>
 
         <Footer />
