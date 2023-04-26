@@ -61,6 +61,9 @@ const Footer = () => {
         <Link style={style} to="/programs">
           <p>Programs</p>
         </Link>
+        <Link style={style} to="/challenges">
+          <p>Challenges</p>
+        </Link>
         <Link style={style} to="/contact">
           <p>Contact Us</p>
         </Link>
