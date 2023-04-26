@@ -19,7 +19,6 @@
  @media screen and (max-width: 1200px) {
   .footer{
     position: relative;
-    width: 88%;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;

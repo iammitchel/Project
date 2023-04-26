@@ -71,12 +71,12 @@ const Footer = () => {
         style={{
           backgroundColor: "#353535",
           color: "white",
-          padding: "1px",
+          padding: "5px",
           width: "400px",
           borderRadius: "10px",
         }}
       >
-        <h1 style={{ color: "#fec006", fontSize: "20px" }}>Contact Us</h1>
+        <h1 style={{ color: "#fec006", fontSize: "25px" }}>Contact Us</h1>
         <div style={{ padding: "5px" }}>
           <p>+2347031292497</p>
           <p>info@tenhelpinghands.com</p>
