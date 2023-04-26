@@ -9,6 +9,66 @@
   visibility: hidden;
 }
 
+
+
+.navigate p{
+  padding: 10px;
+  font-size: 15px;
+}
+
+ @media screen and (max-width: 1200px) {
+  .footer{
+    position: relative;
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 30px;
+  }
+  
+} 
+
+@media screen and (max-width: 400px) {
+  .contact-info{
+    width: 10px;
+  }
+
+}
+
+/* @media screen and (max-width: 1100px) {
+  .footer {
+    display: block;
+  }
+
+  .navigate {
+    margin-left: 35%;
+    margin-top: 30px;
+  }
+
+  .contact-info {
+    margin-left: 25%;
+    margin-top: 30px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    display: block;
+  }
+
+  .navigate {
+    margin-left: 32%;
+    margin-top: 30px;
+  }
+
+  .contact-info {
+    margin-left: 22%;
+    margin-top: 30px;
+  }
+
+}
+
 @media screen and (max-width: 800px) {
   .footer {
     display: block;
@@ -19,8 +79,20 @@
     padding: 50px;
   }
 
-  .contact-info{
+   .contact-info{
    display: none;
+  } 
+
+
+  .navigate {
+    margin-left: 23%;
+    margin-top: 30px;
+  }
+
+  .contact-info {
+    margin-left: 10%;
+    margin-top: 30px;
+   
   }
 
   .number{
@@ -32,5 +104,5 @@
     margin-top: 30px;
     font-size: 25px;
   }
-}
+} */
 
