@@ -14,8 +14,7 @@ const Challenges = () => {
             <h1 style={{ fontSize: 60 }}>Challenges</h1>
         </div>
 
-        <div>
-          <h1 style={{ textAlign: "center" }}>Challenges</h1>
+        <div style={{marginTop:'30px'}}>
           <div className="right">
             <h1 style={{ color: "#fec006", textAlign: "center" }}>Education</h1>
             <p style={{ color: "#fff", textAlign: "start" }}>
