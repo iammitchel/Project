@@ -3,18 +3,20 @@ import './Programs.css'
 import Header from "./Header";
 import Footer from "./Footer";
 import Pimg from "./images/challenge.jpg";
+import { Link } from 'react-router-dom';
+import hands from "./images/hands.jpg";
 
 const Challenges = () => {
   return (
     <div>
-       <div className="header">
+      <div className="header">
         <Header />
         <div className="head">
           <img src={Pimg} alt="" />
-            <h1 style={{ fontSize: 60 }}>Challenges</h1>
+          <h1 style={{ fontSize: 60 }}>Challenges</h1>
         </div>
 
-        <div style={{marginTop:'30px'}}>
+        <div style={{ marginTop: "30px" }}>
           <div className="right">
             <h1 style={{ color: "#fec006", textAlign: "center" }}>Education</h1>
             <p style={{ color: "#fff", textAlign: "start" }}>
@@ -104,10 +106,18 @@ const Challenges = () => {
           </div>
         </div>
 
+        <div className="Pbtn">
+          <img src={hands} alt="" />
+          <h1>Check out our programs</h1>
+          <Link to="/programs">
+            <button>View programs</button>
+          </Link>
+        </div>
+
         <Footer />
       </div>
     </div>
-  )
+  );
 }
 
 export default Challenges
