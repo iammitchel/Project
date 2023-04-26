@@ -6,8 +6,6 @@ import THH from './images/THH.jpeg'
 
 const Header = () => {
 
-  // const activeLink = 'bg-blue-100 text-black'
-  // const normalLink = ''
 
   const style = {
     color:'white',
@@ -21,14 +19,17 @@ const Header = () => {
         </NavLink>
       </Left>
       <Right>
-        <NavLink style={style} to="/" >
+        <NavLink style={style} to="/">
           <h2>Home</h2>
         </NavLink>
-        <NavLink style={style} to="/about" >
+        <NavLink style={style} to="/about">
           <h2>About Us</h2>
         </NavLink>
         <NavLink style={style} to="/programs">
           <h2>Programs</h2>
+        </NavLink>
+        <NavLink style={style} to="/challenges">
+          <h2>Challenges</h2>
         </NavLink>
         <NavLink style={style} to="/contact">
           <h2>Contact Us</h2>
@@ -74,7 +75,7 @@ export const Container = styled.div`
     position: absolute;
     z-index: 1;
     top: 2%;
-    margin-left: 65%;
+    margin-left: 55%;
     font-family: "DM Sans", Sans-serif;
     font-size: 13px;
     h2 {
@@ -100,19 +101,20 @@ export const Container = styled.div`
     }
 
     @media screen and (max-width: 1650px) {
-      margin-left: 60%;
-    }
-    @media screen and (max-width: 1600px) {
-      margin-left: 60%;
-    }
-
-    @media screen and (max-width: 1500px) {
-      margin-left: 53%;
-    }
-    @media screen and (max-width: 1300px) {
       margin-left: 50%;
     }
+    /* @media screen and (max-width: 1600px) {
+      margin-left: 50%;
+    } */
+
+    @media screen and (max-width: 1500px) {
+      margin-left: 45%;
+    }
+    @media screen and (max-width: 1300px) {
+      margin-left: 38%;
+    }
     @media screen and (max-width: 1200px) {
+      margin-left: 58%;
       h2 {
         display: none;
       }
