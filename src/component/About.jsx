@@ -39,9 +39,9 @@ const About = () => {
         {/* <h1 style={{ color: "#353535",fontSize:'20px' }}>About us</h1> */}
         <div className="header">
           <Header />
-          {/* <div>
-            <h1 style={{ marginTop: "200px" }}>About Us</h1>
-          </div> */}
+          <div className='about1'>
+            <h1>About Us</h1>
+          </div>
         </div>
       </div>
 

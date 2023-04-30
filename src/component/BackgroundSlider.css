@@ -149,10 +149,7 @@ button{
         .THH p {
           font-size: 19px;
         }
-        .history h1{
-          padding: 0;
-          margin-top: 250px;
-        }
+      
      }
 
         @media screen and (max-width: 700px) {

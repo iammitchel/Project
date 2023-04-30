@@ -18,6 +18,14 @@
       border-radius: 0.5rem;
 }
 
+.about1{
+  position: absolute;
+  z-index: 0;
+  color: aliceblue;
+  top: 20%;
+  left: 43%;
+  margin-top: 120px;
+}
 
 .WWA p{
   margin-bottom: 100px;
@@ -69,6 +77,10 @@ p{
       width: 100%;
     }
 
+    .about1{
+      left: 40%;
+    }
+
    .Pbtn h1 {
      font-size: 45px;
      bottom: 300px;
@@ -89,6 +101,10 @@ p{
 
   p {
       width: 100%;
+    }
+
+    .about1 {
+      left: 35%;
     }
 
    .Pbtn h1 {
@@ -112,6 +128,9 @@ p{
       width: 100%;
     }
 
+    .about1 {
+      left: 30%;
+    }
    .Pbtn h1 {
      font-size: 25px;
      bottom: 200px;
@@ -132,6 +151,11 @@ p{
   p {
       width: 100%;
     }
+
+  .about1 {
+    left: 28%;
+  }
+
    .Pbtn h1 {
      font-size: 20px;
      bottom: 150px;
@@ -151,6 +175,10 @@ p{
     @media screen and (max-width: 500px) {
       p {
         width: 100%;
+      }
+
+      .about1 {
+        left: 20%;
       }
   
       .Pbtn h1 {
@@ -172,6 +200,10 @@ p{
             @media screen and (max-width: 400px) {
               p {
                 width: 100%;
+              }
+
+              .about1 {
+                left: 18%;
               }
       
               .Pbtn h1 {

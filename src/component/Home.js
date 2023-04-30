@@ -1,44 +1,45 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Header from './Header'
 import  './BackgroundSlider.css'
-// import imageSlide from './data'
+import imageSlide from './data'
 import Footer from "./Footer";
-import SimpleImageSlider from "react-simple-image-slider";
+// import SimpleImageSlider from "react-simple-image-slider";
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-  // const [currentState, setCurrentState] = useState(0);
+  const [currentState, setCurrentState] = useState(0);
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     if (currentState === 3) {
-  //       setCurrentState(0);
-  //     } else {
-  //       setCurrentState(currentState + 1);
-  //     }
-  //   }, 5000);
-  //   return () => clearTimeout(timer);
-  // }, [currentState]);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (currentState === 3) {
+        setCurrentState(0);
+      } else {
+        setCurrentState(currentState + 1);
+      }
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, [currentState]);
 
-  // const bgImageStyle = {
-  //   backgroundImage: `url(${imageSlide[currentState].url})`,
-  //   backgroundPosition: "center",
-  //   backgroundSize: "cover",
-  //   height: "100%",
-  //   filter: "brightness(35%)",
-  //   animation: "fadeout 5s"
-  // };
-  const images = [
-  { url: "img1.jpg" },
-  { url: "img2.jpg" },
-  { url: "img3.jpg" },
-  { url: "img4.jpg" },
-];
+  const bgImageStyle = {
+    backgroundImage: `url(${imageSlide[currentState].url})`,
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    height: "100%",
+    filter: "brightness(35%)",
+    animation: "fadeout 5s"
+  };
+//   const images = [
+//   { url: "img1.jpg" },
+//   { url: "img2.jpg" },
+//   { url: "img3.jpg" },
+//   { url: "img4.jpg" },
+// ];
 
   return (
     <>
       <div className="container-style">
-        <div>
+        {/* <div>
+
           <SimpleImageSlider
             style={{
               filter: "brightness(35%)",
@@ -48,9 +49,9 @@ const Home = () => {
             slideDuration={1}
             height={800}
             images={images}
-          />
-        </div>
-        {/* <div style={bgImageStyle}> </div> */}
+          /> 
+        </div> */}
+        <div style={bgImageStyle}> </div>
         <div className="header">
           <Header />
         </div>
@@ -64,7 +65,10 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="history" style={{ marginTop: "100px", marginBottom:'100px' }}>
+      <div
+        className="history"
+        style={{ marginTop: "100px", marginBottom: "100px" }}
+      >
         <h1>About Ten Helping Hands</h1>
         <div className="THH">
           <p>

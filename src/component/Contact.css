@@ -10,7 +10,7 @@ h1{
 
  @media screen and (max-width: 800px) {
    .text {
-     margin-bottom: 120px;
+     margin-bottom: 10px;
    }
 
      .wrapper img {
