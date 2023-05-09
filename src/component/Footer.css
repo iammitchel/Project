@@ -13,7 +13,7 @@
 
 .navigate p{
   padding: 10px;
-  font-size: 18px;
+  font-size: 17px;
 }
 
  @media screen and (max-width: 1200px) {
@@ -23,6 +23,10 @@
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 30px;
+  }
+
+  .navigate h1{
+    margin-left: 20px;
   }
   
 } 
