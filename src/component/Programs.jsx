@@ -2,7 +2,7 @@ import React from 'react'
 import './Programs.css'
 import Header from './Header';
 import Footer from './Footer';
-import Pimg from "./images/AA.jpg"
+// import Pimg from "./images/AA.jpg"
 import picture1 from "./img/Picture1.png"
 import picture2 from "./img/Picture2.png"
 import picture3 from "./img/Picture3.png"
