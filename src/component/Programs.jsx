@@ -80,12 +80,7 @@ const Programs = () => {
 
         <section className="scholar">
           <h1>2023 / 2024 scholarship program</h1>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-            }}
-          >
+          <div className='scholar1'>
             <div className="scopro">
               <div className="program">
                 <div className="program-details">
@@ -117,11 +112,7 @@ const Programs = () => {
           </div>
         </section>
 
-        <section
-          style={{
-            overflow: "hidden",
-          }}
-        >
+        <section>
           <h1>2023 / 2024 scholarship recipients</h1>
           <div className="scholarRep">
             <div>
@@ -192,21 +183,18 @@ const Programs = () => {
             </div>
           </div>
           <div className="scholarRep3">
-            <div
-              style={{
-                width: "100%",
-                padding: "20px",
-              }}
-            >
+            <div className='normal'>
               <img src={picture14} alt="" />
               <img src={picture15} alt="" />
               <img src={picture16} alt="" />
               <img src={picture17} alt="" />
               <img src={picture2} style={{ width: "380px" }} alt="" />
               <br />
+              <div className='none'>
               <img src={picture18} style={{ height: "340px" }} alt="" />
               <img src={picture19} alt="" />
               <img src={picture20} alt="" />
+              </div>
             </div>
           </div>
         </section>
@@ -223,7 +211,7 @@ const Programs = () => {
             </ul>
           </div>
           <div>
-            <img src={picture21} style={{width:"1150px"}} alt="" />
+            <img src={picture21}  alt="" />
           </div>
           </div>
         </section>
