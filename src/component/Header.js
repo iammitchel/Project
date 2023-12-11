@@ -1,10 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from "styled-components";
 import { NavLink } from 'react-router-dom';
 import Navbar from './Navbar';
 import THH from './images/THH.jpeg'
+// import { FaChevronDown } from "react-icons/fa";
+import Dropdown  from './Dropdown';
 
 const Header = () => {
+  // const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+
+    // const handleClick = () => setClick(!click);
+    // const closeMobileMenu = () => setClick(false);
+
+    const onMouseEnter = () => {
+      if (window.innerWidth < 960) {
+        setDropdown(false);
+      } else {
+        setDropdown(true);
+      }
+    };
+
+    const onMouseLeave = () => {
+      if (window.innerWidth < 960) {
+        setDropdown(false);
+      } else {
+        setDropdown(false);
+      }
+    };
+
 
 
   const style = {
@@ -25,9 +49,18 @@ const Header = () => {
         <NavLink style={style} to="/about">
           <h2>About Us</h2>
         </NavLink>
-        <NavLink style={style} to="/programs">
-          <h2>Programs</h2>
-        </NavLink>
+        <div
+          style={style}
+          to="#"
+          onMouseEnter={onMouseEnter}
+          onMouseLeave={onMouseLeave}
+        >
+          <h2>
+            Programs
+            {/* <div><FaChevronDown /></div> */}
+          </h2>
+          {dropdown && <Dropdown />}
+        </div>
         <NavLink style={style} to="/challenges">
           <h2>Challenges</h2>
         </NavLink>
