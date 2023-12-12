@@ -1,3 +1,7 @@
+import React from "react";
+import * as IoIcons from "react-icons/io";
+
+
 
 export const SidebarData = [
   {
@@ -12,8 +16,17 @@ export const SidebarData = [
   },
   {
     title: "Programs",
-    path: "/programs",
+    path: "#",
     cName: "nav-text",
+
+    subNav: [
+      {
+        title: "2023/2024 Scholarship",
+        path: "/programs",
+        icon: <IoIcons.IoIosPaper />,
+        cName: "dropdown-link",
+      },
+    ],
   },
   {
     title: "Challenges",
