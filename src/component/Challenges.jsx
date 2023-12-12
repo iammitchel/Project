@@ -1,5 +1,5 @@
 import React from 'react'
-import './Programs.css'
+import './About.css'
 import Header from "./Header";
 import Footer from "./Footer";
 import Pimg from "./images/challenge.jpg";
@@ -12,7 +12,7 @@ const Challenges = () => {
         <Header />
         <div className="head">
           <img src={Pimg} alt="" />
-          <h1 style={{ fontSize: 60 }}>Challenges</h1>
+          <h1 className='about1' style={{ fontSize: 60 }}>Challenges</h1>
         </div>
 
         <div style={{ marginTop: "30px" }}>

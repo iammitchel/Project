@@ -97,10 +97,10 @@ const Home = () => {
 
       <div className="programs">
         <h1> Focus Areas</h1>
-        <p>
+        {/* <p>
           We have two key focus areas from which we aim to contribute our quota
           towards a better Africa.
-        </p>
+        </p> */}
         <div className="content">
           <div className="right">
             <h1 style={{ color: "#fec006" }}>Education </h1>
