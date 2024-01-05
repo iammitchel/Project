@@ -17,7 +17,7 @@ const Footer = () => {
           color: "white",
         }}
       >
-        <h1 style={{ fontSize: "25px" }}>Ten Helping Hands</h1>
+        <h1 style={{ fontSize: "25px" }}>Ten Kind Hands</h1>
         <p style={{ color: "#fec006", width: "100%", marginBottom: "20px" }}>
           Contributing towards a better future for Africa
         </p>
@@ -82,7 +82,7 @@ const Footer = () => {
         <h1 style={{ color: "#fec006", fontSize: "25px" }}>Contact Us</h1>
         <div style={{ padding: "5px" }}>
           <p>+234 703 129 2497</p>
-          <p style={{marginTop:'50px', fontSize:'20px'}}>info@tenhelpinghands.com</p>
+          <p style={{marginTop:'50px', fontSize:'20px'}}>info@tenkindhands.com</p>
         </div>
       </div>
     </div>

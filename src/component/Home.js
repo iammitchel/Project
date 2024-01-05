@@ -57,7 +57,7 @@ const Home = () => {
         </div>
         <div className="description">
           <h1 style={{ fontSize: 60, fontFamily: '"Fira Sans", Sans-serif' }}>
-            Ten Helping Hands
+            Ten Kind Hands
           </h1>
           <p style={{ fontFamily: '"DM Sans", Sans-serif' }}>
             Contributing towards a better future for Africa
@@ -69,10 +69,10 @@ const Home = () => {
         className="history"
         style={{ marginTop: "100px", marginBottom: "100px" }}
       >
-        <h1>About Ten Helping Hands</h1>
+        <h1>About Ten Kind Hands</h1>
         <div className="THH">
           <p>
-            THH is an African focused non-governmental organization devoted to
+            TKH is an African focused non-governmental organization devoted to
             enhancing the lives of disadvantaged women, children, and families
             via educational and medical programs. <br />
             <br />
@@ -130,7 +130,7 @@ const Home = () => {
           <div className="left">
             <h1 style={{ color: "#fec006" }}>Healthcare</h1>
             <p>
-              • THH is dedicated to improving the health and well-being of women
+              • TKH is dedicated to improving the health and well-being of women
               and children in Nigeria, especially those who are most in need and
               face the greatest challenges. <br />
               <br />

@@ -51,7 +51,7 @@ const Programs = () => {
             paddingBottom: "20px",
           }}
         >
-          <h1>Ten Kind Hands Website</h1>
+          {/* <h1>Ten Kind Hands Website</h1> */}
           <div className="TKH">
             <ul>
               <li>
@@ -205,9 +205,9 @@ const Programs = () => {
           <div className='info1'>
             <h2>Contact Us</h2>
             <ul>
-              <li>https://tenhelpinghands.com/</li>
+              <li>https://tenkindhands.com/</li>
               <li>+234 703 129 2497</li>
-              <li>info@tenhelpinghands.com​</li>
+              <li>info@tenkindhands.com​</li>
             </ul>
           </div>
           <div>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styled from "styled-components";
 import { NavLink } from 'react-router-dom';
 import Navbar from './Navbar';
-import THH from './images/THH.jpeg'
+import TKH from './images/TKH.jpeg'
 // import { FaChevronDown } from "react-icons/fa";
 import Dropdown  from './Dropdown';
 
@@ -39,7 +39,7 @@ const Header = () => {
     <Container>
       <Left>
         <NavLink style={style} to="/">
-          <img src={THH} alt="" />
+          <img src={TKH} alt="" />
         </NavLink>
       </Left>
       <Right>

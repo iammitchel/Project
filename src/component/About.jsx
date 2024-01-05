@@ -65,7 +65,7 @@ const About = () => {
       <div className="right" style={{ color: "#fff" }}>
         <h1 style={{ color: "#fec006" }}>Who we are</h1>
         <p style={{ textAlign: "start" }}>
-          Welcome to <b>tenhelpinghands</b>, a non-governmental organiztion
+          Welcome to <b>tenkindhands</b>, a non-governmental organiztion
           based in Nigeria devoted to enhancing the lives of disadvantaged
           women, children, and families via educational and medical programs. We
           consider access to decent education and medical care for all children,
@@ -103,7 +103,7 @@ const About = () => {
           and collaborations. <br />
           <br />
           Transparency and accountability are values that{" "}
-          <b>tenhelpinghands </b> uphold. Our programs are continuously reviewed
+          <b>tenkindhands </b> uphold. Our programs are continuously reviewed
           and evaluated to make sure they are having a good effect on the
           children and women we assist. We work hard to make a significant
           difference in their lives. We value the support of our kind donors who
