@@ -82,7 +82,7 @@ const Footer = () => {
         <h1 style={{ color: "#fec006", fontSize: "25px" }}>Contact Us</h1>
         <div style={{ padding: "5px" }}>
           <p>+234 703 129 2497</p>
-          <p style={{marginTop:'50px', fontSize:'20px'}}>info@tenkindhands.com</p>
+          <p style={{marginTop:'50px', fontSize:'20px'}}>jarod@tenkindhands.com</p>
         </div>
       </div>
     </div>
